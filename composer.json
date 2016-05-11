@@ -1,0 +1,24 @@
+{
+    "name": "nandokstronet/nosso-package",
+    "description": "Pacote criado na aula sobre pacotes pro composer",
+    "type": "nosso-package",
+    "require": {
+        "monolog/monolog": "^1.18"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nando Kstro Net",
+            "email": "nandokstro@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "CodeExpertsLearning\\" : "src/"
+        }
+    }
+}
