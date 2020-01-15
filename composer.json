@@ -2,6 +2,7 @@
     "name": "nandokstronet/nosso-package",
     "description": "Pacote criado na aula sobre pacotes pro composer",
     "type": "nosso-package",
+    "version": "0.0.1",
     "require": {
         "monolog/monolog": "^1.18"
     },
@@ -15,7 +16,6 @@
             "email": "nandokstro@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "CodeExpertsLearning\\" : "src/"
